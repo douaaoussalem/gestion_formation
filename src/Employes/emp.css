@@ -1,0 +1,20 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f6f8;
+}
+
+/* Styles spécifiques à l'impression */
+@media print {
+    /* Masquer certains éléments qui ne sont pas nécessaires à l'impression */
+    .no-print {
+        display: none;
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        
+        /* Bordures de 1 pixel solide avec une couleur grise */
+    }
+
+}
